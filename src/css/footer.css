@@ -116,14 +116,24 @@
 }
 
 .footer-text-date {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: rgba(251, 251, 251, 0.4);
-  margin-top: 82px;
-  display: flex;
-  gap: 20px;
-  text-align: center;
-  justify-content: center;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-align: center;
+color: rgba(251, 251, 251, 0.4);
+margin-top: 82px;
+display: flex;
+gap: 20px;
+text-align: center;
+justify-content: center;
+}
+   
+@media screen and (min-width: 768px) {
+.footer{
+    min-width: 736px;
+    margin: 0 16px;
+}
+.footer-container {
+  padding: 45px 48px 20px;
+}
 }
