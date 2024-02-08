@@ -116,11 +116,13 @@ justify-content: center;
    }
    
    @media screen and (min-width: 768px) {
-    .footer-container {
-      max-width: 768px;
-    }
 
 .footer{
-    max-width: 768px;
+    min-width: 736px;
+    margin: 0 16px;
 }
+.footer-container {
+  padding: 45px 48px 20px;
+}
+
 }
