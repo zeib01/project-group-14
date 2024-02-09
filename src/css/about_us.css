@@ -5,7 +5,9 @@
     max-width: 335px;
 }
 
-.about-us-section {}
+.about-us-section {
+    margin-top: -20px;
+}
 
 .about-us-container {}
 
@@ -55,6 +57,10 @@
         max-width: 704px;
     }
 
+    .about-us-section {
+        margin-top: -32px;
+    }
+
     .about-us-title {
         font-size: 48px;
         padding-top: 50px;
@@ -86,6 +92,10 @@
 @media screen and (min-width: 1280px) {
     .container {
         max-width: 1180px;
+    }
+
+    .about-us-section {
+        margin-top: -50px;
     }
 
     .about-us-card-container {
