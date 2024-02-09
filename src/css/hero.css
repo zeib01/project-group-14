@@ -1,11 +1,12 @@
-<<<<<<< Updated upstream
-=======
 /*MOBILE*/
-
 .hero-section {
   max-width: 375px;
   height: 100%;
+<<<<<<< HEAD
   padding: 260px 20px 386px 20px;
+=======
+  padding: 0 20px 302px 20px;
+>>>>>>> main
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -21,6 +22,7 @@
 }
 
 .hero-container {
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,6 +76,17 @@
 .hero-button:focus {
   color: #1b414b;
   background-color: #fbfbfb;
+=======
+}
+
+.hero-title {
+}
+
+.hero-text {
+}
+
+.hero-button {
+>>>>>>> main
 }
 
 @media screen and (min-width: 320px) and (max-width: 374.98px) {
@@ -107,8 +120,11 @@
 @media only screen and (min-width: 768px) {
   .hero-section {
     max-width: 768px;
+<<<<<<< HEAD
     height: 100%;
     padding: 280px 32px 282px 32px;
+=======
+>>>>>>> main
     background-image: linear-gradient(
         360deg,
         #11131f 15.05%,
@@ -116,6 +132,7 @@
         rgba(17, 19, 31, 0) 98.27%
       ),
       url(/img/hero-bg-tablet@1x.jpg);
+<<<<<<< HEAD
   }
 
   .hero-title {
@@ -161,12 +178,21 @@
   }
 }
 
+=======
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+>>>>>>> main
 /*DESCTOP*/
 @media only screen and (min-width: 1280px) {
   .hero-section {
     max-width: 1280px;
+<<<<<<< HEAD
     height: 100%;
     padding: 235px 140px 215px 140px;
+=======
+>>>>>>> main
     background-image: linear-gradient(
         360deg,
         #11131f 15.05%,
@@ -174,6 +200,7 @@
         rgba(17, 19, 31, 0) 98.27%
       ),
       url(/img/hero-bg-desktop@1x.jpg);
+<<<<<<< HEAD
   }
 
   .hero-container {
@@ -212,12 +239,21 @@
   }
 }
 
+=======
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+>>>>>>> main
 /*DESCTOP2*/
 @media only screen and (min-width: 1440px) {
   .hero-section {
     max-width: 1440px;
+<<<<<<< HEAD
     height: 100%;
     padding: 235px 220px 232px 220px;
+=======
+>>>>>>> main
     background-image: linear-gradient(
         360deg,
         #11131f 15.05%,
@@ -228,6 +264,7 @@
     margin-left: auto;
     margin-right: auto;
   }
+<<<<<<< HEAD
   .hero-title {
     font-size: 80px;
   }
@@ -260,3 +297,6 @@
   }
 }
 >>>>>>> Stashed changes
+=======
+}
+>>>>>>> main
