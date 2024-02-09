@@ -94,7 +94,7 @@ text-align: center;
 color: rgba(4, 3, 6, 0.4);
 margin-top: 8px;
 }
-=======
+
 /*--------@media tablet--------*/
 
 @media screen and (min-width: 768px) {
@@ -156,3 +156,20 @@ text-align: center;
 }
 }
 
+/*--------@media desctop-1440-------*/
+
+@media screen and (min-width: 1440px) {
+    .reviews-list-item {
+    max-width: 392px;
+   
+       }
+
+       .reviews-list {
+    gap: 32px;
+    
+  }
+
+    .reviews-img-descr{
+  padding: 0 36px;
+}
+}
