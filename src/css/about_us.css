@@ -1,4 +1,4 @@
-.container {
+.about-us-container {
     background-color: #fbfbfb;
     border-radius: 24px;
     padding: 0;
@@ -8,8 +8,6 @@
 .about-us-section {
     margin-top: -20px;
 }
-
-.about-us-container {}
 
 .about-us-title {
     font-weight: 500;
@@ -47,13 +45,13 @@
 }
 
 @media screen and (max-width: 375px) {
-    .container {
+    .about-us-container {
         max-width: 335px;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .container {
+    .about-us-container {
         max-width: 704px;
     }
 
@@ -90,7 +88,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
+    .about-us-container {
         max-width: 1180px;
     }
 
@@ -120,7 +118,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .container {
+    .about-us-container {
         max-width: 1340px;
     }
 
