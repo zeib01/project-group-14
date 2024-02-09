@@ -1,10 +1,13 @@
 /*Mobile header*/
 header {
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  width: 100%;
   display: flex;
   justify-content: center;
-  margin: 20px 20px 198px 20px;
+  padding: 20px 20px 0 20px;
 }
-
 .header-container {
   display: flex;
   align-items: center;
@@ -54,7 +57,7 @@ header {
 /*Tablet header*/
 @media screen and (min-width: 768px) {
   header {
-    margin: 32px 32px 200px 32px;
+    padding: 32px 32px 0 32px;
   }
   .header-container {
     max-width: 704px;
@@ -111,7 +114,7 @@ header {
 /*Dekstop header 1280px*/
 @media screen and (min-width: 1280px) {
   header {
-    margin: 32px 100px 155px 100px;
+    padding: 32px 100px 0 100px;
   }
   .header-container {
     max-width: 1080px;
