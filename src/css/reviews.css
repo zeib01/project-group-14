@@ -118,7 +118,7 @@ text-align: center;
   display: flex;
   gap: 32px;
   justify-content: center;
-  padding-bottom: 150px;
+  margin-bottom: 150px;
 }
 
  .reviews-list-item {
