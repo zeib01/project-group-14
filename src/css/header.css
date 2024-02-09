@@ -123,9 +123,15 @@ header {
   .header-list-anchor-links {
     margin-right: 281px;
   }
+  .header-socials-icon {
+    transition: fill 250ms ease-in-out;
+  }
   .header-socials-icon:hover,
   :focus {
     fill: #062730;
+  }
+  .header-anchor-link {
+    transition: background-color 250ms ease-in-out;
   }
   .header-anchor-link:hover,
   :focus {
