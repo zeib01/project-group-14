@@ -110,10 +110,12 @@
     text-align: center;
   }
 
-  .reviews-descr {
-    margin-bottom: 75px;
-  }
-
+.reviews-list{
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-bottom: 150px;
+}
   .reviews-list {
     display: flex;
     gap: 32px;
@@ -153,5 +155,23 @@
 
   .reviews-list-item {
     max-width: 376px;
+}
+}
+
+/*--------@media desctop-1440-------*/
+
+@media screen and (min-width: 1440px) {
+    .reviews-list-item {
+    max-width: 392px;
+   
+       }
+
+       .reviews-list {
+    gap: 32px;
+    
   }
+
+    .reviews-img-descr{
+  padding: 0 36px;
+}
 }
