@@ -1,0 +1,132 @@
+.about-us-container {
+    background-color: #fbfbfb;
+    border-radius: 24px;
+    padding: 0;
+    max-width: 335px;
+}
+
+.about-us-section {
+    margin-top: -20px;
+}
+
+.about-us-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+.about-us-text-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 22px;
+}
+
+.about-us-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.about-us-text {
+    line-height: 1.17;
+    color: #040306;
+    opacity: 0.4;
+}
+
+.about-us-img {
+    width: 100%;
+    border-radius: 24px;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 375px) {
+    .about-us-container {
+        max-width: 335px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about-us-container {
+        max-width: 704px;
+    }
+
+    .about-us-section {
+        margin-top: -32px;
+    }
+
+    .about-us-title {
+        font-size: 48px;
+        padding-top: 50px;
+        padding-left: 32px;
+        padding-right: 136px;
+        margin-bottom: 50px;
+    }
+
+    .about-us-text-container {
+        padding-left: 32px;
+        padding-right: 283px;
+        margin-bottom: 27px;
+    }
+
+    .about-us-subtitle {
+        font-size: 23px;
+    }
+
+    .about-us-text {
+        font-size: 13px;
+        line-height: 1.15;
+    }
+
+    .about-us-img {
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .about-us-container {
+        max-width: 1180px;
+    }
+
+    .about-us-section {
+        margin-top: -50px;
+    }
+
+    .about-us-card-container {
+        display: flex;
+        flex-direction: row;
+        gap: 189px;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .about-us-title {
+        width: 537px;
+        padding: 0;
+    }
+
+    .about-us-text-container {
+        width: 354px;
+        padding: 0;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .about-us-container {
+        max-width: 1340px;
+    }
+
+    .about-us-text-container {
+        width: 404px;
+    }
+
+    .about-us-desktop-container {
+        gap: 299px;
+    }
+}
