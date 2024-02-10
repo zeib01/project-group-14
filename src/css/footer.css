@@ -1,28 +1,109 @@
 .footer {
+  display: flex;
+  justify-content: center;
   margin: 0 10px;
+}
+
+.footer-container {
+  max-width: 355px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px 30px 22px;
   background: #1b414b;
   border-radius: 24px 24px 0 0;
 }
 
-@media screen and (min-width: 375px) {
-  .footer {
-    width: 375px;
-    margin: 0 auto;
-  }
+.footer-logo {
+  display: flex;
+  margin-bottom: 80px;
+
+
 }
 
-.footer-container {
-  width: 355px;
-  padding: 40px 30px 22px 30px;
+.footer-menu {
+  width: 206px;
+}
+
+.footer-logo-text {
+  margin-right: 37px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.03em;
+  color: #fbfbfb;
+
+}
+
+.footer-list {
+  display: flex;
+  gap: 4px;
+
+
+}
+
+.footer-link-text {
+  display: block;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+  padding: 15px 12px;
+  background: rgba(251, 251, 251, 0.3);
+  border-radius: 8px;
+  width: 66px;
+  height: 40px;
+  border: none;
+}
+
+.footer-link-text:hover,
+.footer-link-text:focus {
+  background: #fbfbfb;
+  color: #1b414b;
+}
+
+.footer-social-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 40px;
+
+}
+
+.footer-link-item {
+  max-width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-social-link {
+  width: 24px;
+  height: 24px;
+}
+
+.social-footer {
+  fill: #fbfbfb;
 }
 
 .footer-logo {
   display: flex;
 }
 
-.footer-logo-text {
-  justify-content: space-between;
-
+.footer-text {
+  margin: auto;
+  margin-bottom: 82px;
+  font-size: 18px;
+  line-height: 1.0;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  max-width: 279px;
 }
 
 .footer-menu {
@@ -43,8 +124,6 @@
   gap: 4px;
   margin-left: auto;
 }
-
-.footer-link {}
 
 .footer-link-text {
   display: block;
@@ -101,7 +180,7 @@
 
 .footer-link-item:hover,
 .footer-link-item:focus {
-  background-color: transparent rgba(251, 251, 251, 0.8);
+  background-color: rgba(251, 251, 251, 0.8);
 }
 
 .footer-text {
@@ -116,24 +195,110 @@
 }
 
 .footer-text-date {
-font-size: 12px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-align: center;
-color: rgba(251, 251, 251, 0.4);
-margin-top: 82px;
-display: flex;
-gap: 20px;
-text-align: center;
-justify-content: center;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: rgba(251, 251, 251, 0.4);
+  margin-top: 82px;
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
 }
-   
+
 @media screen and (min-width: 768px) {
-.footer{
+  .footer {
     min-width: 736px;
     margin: 0 16px;
+  }
+
+  .footer-container {
+    padding: 45px 48px 20px;
+  }
 }
-.footer-container {
-  padding: 45px 48px 20px;
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .footer-container {
+    width: 100%;
+
+  }
 }
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    max-width: 736px;
+    padding: 50px 48px 20px;
+
+  }
+
+  .footer-logo-text {
+    margin-right: 110px;
+
+  }
+
+  .footer-link-text {
+    width: 91px;
+  }
+
+  .footer-list {
+    margin-right: 91px;
+  }
+
+
+
+  .footer-text {
+    font-size: 32px;
+    max-width: 640px;
+  }
+
+  .footer-text-date {
+    font-size: 14px;
+    line-height: 1.18;
+    gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-container {
+    max-width: 1230px;
+    padding: 50px 75px 20px;
+
+  }
+
+  .footer-logo-text {
+    margin-right: 330px;
+
+  }
+
+  .footer-list {
+    margin-right: 311px;
+  }
+
+  .footer-text {
+    max-width: 693px;
+    margin: 0 118px 99px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer-container {
+    max-width: 1390px;
+    padding: 50px 75px 20px;
+
+  }
+
+  .footer-logo-text {
+    margin-right: 409px;
+
+  }
+
+  .footer-list {
+    margin-right: 388px;
+  }
+
+  .footer-text {
+    max-width: 699px;
+    margin: 0 195px 99px;
+  }
 }
