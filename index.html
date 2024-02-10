@@ -20,7 +20,7 @@
     />
     
     <script type="module" crossorigin src="/project-group-14/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-group-14/assets/index-914f1c6f.css">
+    <link rel="stylesheet" href="/project-group-14/assets/index-803436dd.css">
   </head>
 
   <body>
@@ -121,45 +121,52 @@
       surrounded by breathtaking views and state-of-the-art amenities.
     </p>
     <button class="hero-button" type="button">
-      <a href="#">Yacht rental</a>
+      <a href="#rent">Yacht rental</a>
     </button>
   </div>
 </section>
 
-      <section class="about-us-section" id="about-us">
-    <div class="container about-us-container">
-        <div class="about-us-card-container">
-            <h2 class="about-us-title">YachtJet fleet is here to take you on the ultimate adventure</h2>
-            <div class="about-us-text-container">
-                <h3 class="about-us-subtitle">From spacious decks to state-of-the-art technology, our yachts are designed to provide the perfect blend of luxury and functionality.</h3>
-                <p class="about-us-text">Take a look at our selection below and choose the yacht that matches your needs and preferences.No matter which yacht you choose, our experienced crew will ensure that your journey is smooth and enjoyable. Book now and get ready for an unforgettable adventure on the high seas.
-                </p>
-            </div>
-        </div>
-        <picture>
-            <source srcset="../img/about_us_img/about-us-desktop1440px-1.jpg 1x, ../img/about_us_img/about-us-desktop1440px-2x.jpg 2x" media="(min-width: 1440px)" />
-            <source srcset="../img/about_us_img/about-us-desktop1280px-1.jpg 1x, ../img/about_us_img/about-us-desktop1280px-2x.jpg 2x" media="(min-width: 1280px)" />
-            <source srcset="../img/about_us_img/about-us-tablet-1.jpg 1x, ../img/about_us_img/about-us-tablet-2x.jpg 2x" media="(min-width: 768px)" />
-            <source srcset="../img/about_us_img/about-us-mobile-1.jpg 1x, ../img/about_us_img/about-us-mobile-2x.jpg 2x" media="(min-width: 375px)" />
-            <source srcset="../img/about_us_img/about-us-mobile-1.jpg 1x, ../img/about_us_img/about-us-mobile-2x.jpg 2x" media="(max-width: 375px)" />
-            <img class="about-us-img" src="../img/about_us_img/about-us-desktop1440px-1.jpg" alt="evening yacht" width="1340" height="470" />
-        </picture>
+      <section class="about-us-section">
+  <div class="container about-us-container">
+    <h2 class="about-us-title">
+      YachtJet fleet is here to take you on the ultimate adventure
+    </h2>
+    <div class="about-us-text-container">
+      <h3 class="about-us-subtitle">
+        From spacious decks to state-of-the-art technology, our yachts are
+        designed to provide the perfect blend of luxury andfunctionality.
+      </h3>
+      <p class="about-us-text">
+        Take a look at our selection below and choose the yacht that matches
+        your needs and preferences.No matter which yacht you choose, our
+        experienced crew will ensure that your journey is smooth and enjoyable.
+        Book now and get ready for an unforgettable adventure on the high seas.
+      </p>
     </div>
+    <picture> </picture>
+  </div>
 </section>
-      <section class="yachts">
+
+      <section class="yachts" id="our-yachts">
   <div class="container">
     <h2 class="yachts-title">
       Choose your dream yacht and sail away into the sunset
     </h2>
     <ul class="yachts-list">
       <li class="yachts-list-item">
-        <picture>
+        <!-- <picture>
           <source
-            srcset="/project-group-14/assets/admiral-1440-1x-min-7bf251f0.jpg 1x, /project-group-14/assets/admiral-1440-2x-min-6387cb96.jpg 2x"
+            srcset="
+              ./img/yachts/admiral-1440-1x-min.jpg 1x,
+              ./img/yachts/admiral-1440-2x-min.jpg 2x
+            "
             media="(min-width: 1440px)"
           />
           <source
-            srcset="/project-group-14/assets/admiral-1280-1x-min-547e81b5.jpg 1x, /project-group-14/assets/admiral-1280-2x-min-42f61a64.jpg 2x"
+            srcset="
+              ./img/yachts/admiral-1280-1x-min.jpg 1x,
+              ./img/yachts/admiral-1280-2x-min.jpg 2x
+            "
             media="(min-width: 1280px)"
           />
           <source
@@ -170,15 +177,19 @@
             media="(min-width: 768px)"
           />
           <source
-            srcset="/project-group-14/assets/admiral-mob-1x-min-1dfd1321.jpg 1x, /project-group-14/assets/admiral-mob-2x-min-53031d59.jpg 2x"
+            srcset="
+              ./img/yachts/admiral-mob-1x-min.jpg 1x,
+              ./img/yachts/admiral-mob-2x-min.jpg 2x
+            "
             media="(max-width: 767px)"
           />
-          <img
-            class="yachts-item-img"
-            src="../img/yachts/admiral-1440-2x-min.jpg"
-            alt="Our Yachts Admiral"
-          />
-        </picture>
+          
+        </picture> -->
+        <img
+          class="yachts-item-img"
+          src="../img/yachts/admiral-1440-2x-min.jpg"
+          alt="Our Yachts Admiral"
+        />
         <div class="yachts-item-arrow">
           <ul class="yachts-arrow-list">
             <li class="item-arrow">Arrow</li>
@@ -202,49 +213,73 @@
           </ul>
         </div>
       </li>
-      <li class="yachts-list-item"></li>
-      <li class="yachts-list-item"></li>
+      <li class="yachts-list-item item2">
+        <img
+          class="yachts-item-img"
+          src="../img/yachts/benetti-1440-2x-min.jpg"
+          alt="Our Yachts Benetti"
+        />
+        <div class="yachts-item-arrow">
+          <ul class="yachts-arrow-list">
+            <li class="item-arrow">BENETTI OASIS 40M BO122</li>
+            <li class="item-arrow-yachts">LUXURY YAHTS</li>
+          </ul>
+        </div>
+        <div class="yachts-item-text">
+          <ul class="yachts-item-spec">
+            <li class="item-spec-text">LENGTH</li>
+            <li class="item-spec-text">BUILDER</li>
+            <li class="item-spec-text">BUILT</li>
+            <li class="item-spec-text">GUESTS</li>
+            <li class="item-spec-text">PRICE</li>
+          </ul>
+          <ul class="yachts-item-value">
+            <li class="item-spec-text">41m (133ft)</li>
+            <li class="item-spec-text">Benetti</li>
+            <li class="item-spec-text">2025</li>
+            <li class="item-spec-text">10 in 5 cabins</li>
+            <li class="item-spec-text">€23,210,000</li>
+          </ul>
+        </div>
+      </li>
+      <li class="yachts-list-item item3">
+        <img
+          class="yachts-item-img"
+          src="../img/yachts/isa-1440-2x-min.jpg"
+          alt="Our Yachts Isa"
+        />
+        <div class="yachts-item-arrow">
+          <ul class="yachts-arrow-list">
+            <li class="item-arrow">BELLE ANNA</li>
+            <li class="item-arrow-yachts">LUXURY YAHTS</li>
+          </ul>
+        </div>
+        <div class="yachts-item-text">
+          <ul class="yachts-item-spec">
+            <li class="item-spec-text">LENGTH</li>
+            <li class="item-spec-text">BUILDER</li>
+            <li class="item-spec-text">BUILT</li>
+            <li class="item-spec-text">GUESTS</li>
+            <li class="item-spec-text">PRICE</li>
+          </ul>
+          <ul class="yachts-item-value">
+            <li class="item-spec-text">50m(155ft)</li>
+            <li class="item-spec-text">ISA</li>
+            <li class="item-spec-text">2012</li>
+            <li class="item-spec-text">12 in 6 cabins</li>
+            <li class="item-spec-text">€21,000,000</li>
+          </ul>
+        </div>
+      </li>
     </ul>
-    <button type="button" class="yachts-btn">Yacht rental</button>
+    <button href="#rent" type="button" class="yachts-btn">Yacht rental</button>
   </div>
 </section>
 
-      <!-- advantages Buhaichuk -->
+      advantages Buhaichuk
 <section class="advantages">
   <div class="container">
-    <h1 class="head-word">Our Advantages</h1>
-    <ol class="advantages-sector">
-      <!--advantage 1-->
-      <li class="advantages-part">
-        <h2 class="advantages-number">01</h2>
-        <p class="advantages-word">
-          Swimming and water sports: try your hand at water skiing
-        </p>
-      </li>
-      <!--advantage 2-->
-      <li class="advantages-part">
-        <h2 class="advantages-number">02</h2>
-        <p class="advantages-word">Fishing: try to catch your own dinner</p>
-      </li>
-      <!--advantage 3-->
-      <li class="advantages-part">
-        <h2 class="advantages-number">03</h2>
-        <p class="advantages-word">
-          Sightseeing tours: take a shore or island tour, enjoy the views and
-          sunsets from the water
-        </p>
-      </li>
-      <!--advantage 4-->
-      <li class="advantages-part">
-        <h2 class="advantages-number">04</h2>
-        <p class="advantages-word">
-          Rest and relaxation: read a book or listen to music while enjoying the
-          outdoor atmosphere.
-        </p>
-      </li>
-    </ol>
-    <img src="/project-group-14/assets/yaht-interior-advantage-1edf0c23.jpg" alt="yaht-interior"
-    class="sec4-photo" width: 540px; height: 424px;>
+    <h1>Our Advantages</h1>
   </div>
 </section>
       <section class="rent" id="rent">
@@ -451,6 +486,7 @@
   </div>
 
 </footer>
+
     
   </body>
 </html>
