@@ -1,0 +1,206 @@
+.advantages {
+    display: flex;
+    
+}
+.container-sec4 {
+    width: 320px;
+}
+
+.head-word{
+    visibility: hidden;
+}
+.advantages-sector {
+    border-radius: 24px;
+width:  335px;
+height: 642px;
+background: #1b414b;
+display: flex;
+flex-wrap: wrap;
+}
+.advantages-part {
+    list-style: none;
+    width: 295px;
+    height: 94px;
+    margin-top: 50px;
+    padding-right: 20px;
+}
+.advantages-number {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 28px; 
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: #fbfbfb;
+    margin-bottom: 25px;
+}
+.advantages-number::after{
+    content: "";
+    position: absolute;
+    background: rgba(251, 251, 251, 0.1);
+    transform: translateY(16px);    
+    border-radius: 18px;
+    width: 295px;
+    height: 2px;
+}
+.advantages-word {
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.8;
+    line-height: 14px; 
+    line-height: 1.16667;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
+
+.sec4-photo{
+    border-radius: 24px;
+    width: 335px;
+    height: 424px;
+}
+
+/*-----------media----------*/
+
+/*-----------tablet----------*/
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        }
+        .advantages-sector {
+            border-radius: 24px;
+        width:  704px;
+        height: 424px;
+        background: #1b414b;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .advantages-part {
+            list-style: none;
+            width: 304px;
+            height: 100px;
+            margin-top: 50px;
+            padding-right: 20px;
+        }
+        .advantages-number {
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 32px; 
+            line-height: 1;
+            letter-spacing: -0.05em;
+            color: #fbfbfb;
+            margin-bottom: 25px;
+        }
+        .advantages-word {
+            font-weight: 400;
+            font-size: 13px;
+            opacity: 0.8;
+            line-height: 15px; 
+            line-height: 1.15;
+            letter-spacing: -0.02em;
+            color: #fbfbfb;
+        }
+        .sec4-photo{
+            border-radius: 24px;
+            width: 704px;
+            height: 424px;
+        }
+        .advantages-part{
+            width: calc((100% - 24px) / 2);
+        }
+    }
+
+
+    /*-----------desktop1280----------*/
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        }
+        .advantages-sector {
+            border-radius: 24px;
+        width:  716px;
+        height: 424px;
+        background: #1b414b;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .advantages-part {
+            list-style: none;
+            width: 280px;
+            height: 100px;
+            margin-top: 50px;
+            padding-right: 20px;
+        }
+        .advantages-number {
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 32px; 
+            line-height: 1;
+            letter-spacing: -0.05em;
+            color: #fbfbfb;
+            margin-bottom: 25px;
+        }
+        .advantages-word {
+            font-weight: 400;
+            font-size: 13px;
+            opacity: 0.8;
+            line-height: 15px; 
+            line-height: 1.15;
+            letter-spacing: -0.02em;
+            color: #fbfbfb;
+        }
+        .sec4-photo{
+            border-radius: 24px;
+            width: 432px;
+            height: 424px;
+        }
+        .advantages-part{
+            width: calc((100% - 24px) / 2);
+        }
+    }
+
+/*-----------desktop1440----------*/
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        }
+        .advantages-sector {
+            border-radius: 24px;
+        width:  768px;
+        height: 424px;
+        background: #1b414b;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .advantages-part {
+            list-style: none;
+            width: 280px;
+            height: 100px;
+            margin-top: 50px;
+            padding-right: 20px;
+        }
+        .advantages-number {
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 32px; 
+            line-height: 1;
+            letter-spacing: -0.05em;
+            color: #fbfbfb;
+            margin-bottom: 25px;
+        }
+        .advantages-word {
+            font-weight: 400;
+            font-size: 13px;
+            opacity: 0.8;
+            line-height: 15px; 
+            line-height: 1.15;
+            letter-spacing: -0.02em;
+            color: #fbfbfb;
+        }
+        .sec4-photo{
+            border-radius: 24px;
+            width: 540px;
+            height: 424px;
+        }
+        .advantages-part{
+            width: calc((100% - 24px) / 2);
+        }
+    }
