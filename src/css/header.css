@@ -25,11 +25,28 @@ header {
   color: #1b414b;
 }
 .header-btn-icon {
+  width: 28px;
+  height: 28px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: transparent;
   border: 0;
   padding: 0;
   margin: 0;
+}
+.header-burger-icon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  width: 28px;
+}
+.header-burger-icon-item {
+  background-color: #1b414b;
+  width: 21px;
+  height: 3px;
+  border-radius: 2px;
 }
 .header-icon {
   fill: #1b414b;
