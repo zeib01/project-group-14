@@ -110,12 +110,6 @@
     text-align: center;
   }
 
-.reviews-list{
-  display: flex;
-  gap: 32px;
-  justify-content: center;
-  margin-bottom: 150px;
-}
   .reviews-list {
     display: flex;
     gap: 32px;
