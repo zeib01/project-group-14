@@ -1,82 +1,78 @@
 <section class="rent" id="rent">
-  <div class="container">
-    <ul class="rent__ul">
-      <li class="rent__li rent__wrapper">
-        <!-- <div class="rent__wrapper"> -->
-        <h2 class="rent__title">Rent a yacht now</h2>
-        <form class="rent__form" name="rent-form" autocomplete="on">
-          <input
-            class="rent__input"
-            type="text"
-            name="user-name"
-            placeholder="Full Name"
-            pattern="[A-Za-z0-9 ]{6,}"
-            title="Будь-ласка, введіть своє справжнє ім’я."
-          />
-          <input
-            class="rent__input"
-            type="email"
-            name="user-mail"
-            placeholder="Email"
-            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-            title="Будь-ласка, введіть свою справжню поштову адресу."
-          />
-          <input
-            class="rent__input"
-            type="tel"
-            name="user-phone"
-            placeholder="Phone number"
-            pattern="\+?[0-9\s\-\(\)]+"
-            title="Будь-ласка, введіть номер в міжнародному форматі, починаючи зі знаку плюс"
-          />
-          <textarea
-            class="rent__input rent__textarea"
-            name="user-comment"
-            rows="10"
-            cols="30"
-            placeholder="Comment"
-          ></textarea>
-          <button type="submit" class="rent__button">Send</button>
-        </form>
-        <!-- </div> -->
-      </li>
-      <li class="rent__li">
-        <picture>
-          <source
-            srcset="
-              ../img/rent_a_yacht_img/rent@1x_lg.jpg 1x,
-              ../img/rent_a_yacht_img/rent@2x_lg.jpg 2x
-            "
-            media="(min-width: 1440px)"
-          />
-          <source
-            srcset="
-              ../img/rent_a_yacht_img/rent@1x_bg.jpg 1x,
-              ../img/rent_a_yacht_img/rent@2x_bg.jpg 2x
-            "
-            media="(min-width: 1280px)"
-          />
-          <source
-            srcset="
-              ../img/rent_a_yacht_img/rent@1x_md.jpg 1x,
-              ../img/rent_a_yacht_img/rent@2x_md.jpg 2x
-            "
-            media="(min-width: 768px)"
-          />
-          <source
-            srcset="
-              ../img/rent_a_yacht_img/rent@1x_sm.jpg 1x,
-              ../img/rent_a_yacht_img/rent@2x_sm.jpg 2x
-            "
-            media="(max-width: 767px)"
-          />
-          <img
-            class="rent__picture"
-            src="../img/rent_a_yacht_img/rent@1x_sm.jpg"
-            alt="Beautiful expensive big yacht on the background of the night sky"
-          />
-        </picture>
-      </li>
-    </ul>
+  <div class="container rent__container">
+    <div class="rent__li rent__wrapper">
+      <h2 class="rent__title">Rent a yacht now</h2>
+      <form class="rent__form" name="rent-form" autocomplete="on">
+        <input
+          class="rent__input"
+          type="text"
+          name="user-name"
+          placeholder="Full Name"
+          pattern="[A-Za-z0-9 ]{6,}"
+          title="Будь-ласка, введіть своє справжнє ім’я."
+        />
+        <input
+          class="rent__input"
+          type="email"
+          name="user-mail"
+          placeholder="Email"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          title="Будь-ласка, введіть свою справжню поштову адресу."
+        />
+        <input
+          class="rent__input"
+          type="tel"
+          name="user-phone"
+          placeholder="Phone number"
+          pattern="\+?[0-9\s\-\(\)]+"
+          title="Будь-ласка, введіть номер в міжнародному форматі, починаючи зі знаку плюс"
+        />
+        <textarea
+          class="rent__input rent__textarea"
+          name="user-comment"
+          rows="10"
+          cols="30"
+          placeholder="Comment"
+        ></textarea>
+        <button type="submit" class="rent__button">Send</button>
+      </form>
+    </div>
+    <div class="rent__li">
+      <picture>
+        <source
+          srcset="
+            ./img/rent_a_yacht_img/rent@1x_lg.jpg 1x,
+            ./img/rent_a_yacht_img/rent@2x_lg.jpg 2x
+          "
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="
+            ./img/rent_a_yacht_img/rent@1x_bg.jpg 1x,
+            ./img/rent_a_yacht_img/rent@2x_bg.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./img/rent_a_yacht_img/rent@1x_md.jpg 1x,
+            ./img/rent_a_yacht_img/rent@2x_md.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./img/rent_a_yacht_img/rent@1x_sm.jpg 1x,
+            ./img/rent_a_yacht_img/rent@2x_sm.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          class="rent__picture"
+          src="./img/rent_a_yacht_img/rent@1x_sm.jpg"
+          alt="Beautiful expensive big yacht on the background of the night sky"
+        />
+      </picture>
+    </div>
   </div>
 </section>
