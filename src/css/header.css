@@ -11,6 +11,7 @@ header {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: start;
   gap: 215px;
   max-width: 335px;
   height: 42px;
@@ -65,10 +66,7 @@ header {
   .header-container {
     width: 100%;
     gap: 0;
-  }
-  .header-logo {
-    flex-basis: 50%;
-    margin-right: 167px;
+    justify-content: space-between;
   }
 }
 /*Tablet header*/
@@ -188,6 +186,7 @@ header {
 .mobile-header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 215px;
   max-width: 335px;
   height: 42px;
