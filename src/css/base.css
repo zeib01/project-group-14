@@ -1,0 +1,40 @@
+body {
+    background-color: #0e1823;
+    color: #1b414b;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+}
+
+.container {
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 375px) {
+    .container {
+        width: 375px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding: 0 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1280px;
+        padding: 0 50px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 1440px;
+    }
+}
