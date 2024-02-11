@@ -14,9 +14,11 @@
     visibility: hidden;
 }
 .advantages-sector {
+    margin-bottom: 20px;
+    padding: 80px 20px;
     border-radius: 24px;
-width:  335px;
-height: 642px;
+/*width:  335px;
+height: 642px;*/
 background: #1b414b;
 display: flex;
 flex-wrap: wrap;
@@ -75,11 +77,9 @@ flex-wrap: wrap;
 /*-----------tablet----------*/
 @media screen and (min-width: 768px) {
         .advantages-sector {
-            border-radius: 24px;
         width:  704px;
         height: 424px;
-        background: #1b414b;
-        display: flex;
+        padding: 90px 32px;
         flex-wrap: wrap;
         
         }
@@ -191,6 +191,13 @@ flex-wrap: wrap;
         background: #1b414b;
         display: flex;
         flex-wrap: wrap;
+        }
+        .container-sec4 {
+            /*width: 320px;*/
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
         }
         .line{
             border-radius: 18px;
