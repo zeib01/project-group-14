@@ -2,7 +2,7 @@
 .hero-section {
   max-width: 375px;
   height: 100%;
-  padding: 260px 20px 386px 20px;
+  padding: 260px 20px 302px 20px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -35,7 +35,7 @@
 }
 
 .hero-text {
-  width: 326px;
+  max-width: 326px;
   margin-bottom: 14px;
   font-family: 'Inter', sans-serif;
   font-weight: 300;
@@ -65,7 +65,7 @@
 
 .hero-button:hover {
   color: #1b414b;
-  background: #fbfbfb;
+  background-color: #fbfbfb;
 }
 
 .hero-button:focus {
@@ -121,6 +121,7 @@
 
   .hero-text {
     width: 591px;
+    max-width: none;
     margin-bottom: 24px;
     font-size: 16px;
     line-height: 1.4;
@@ -173,15 +174,13 @@
       url(/img/hero-bg-desktop@1x.jpg);
   }
 
-  .hero-container {
-  }
-
   .hero-title {
     width: 1001px;
     font-size: 80px;
   }
 
   .hero-text {
+    max-width: none;
     margin-bottom: 24px;
     font-size: 16px;
     line-height: 1.4;
