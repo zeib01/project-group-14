@@ -28,8 +28,10 @@ margin: 0 auto;
     list-style: none;
     width: 295px;
     height: 94px;
-    margin-top: 50px;
     padding-right: 20px;
+}
+.advantages-part:not(:last-child){
+    margin-bottom: 40px;
 }
 .advantages-number {
     font-weight: 500;
@@ -101,7 +103,7 @@ margin: 0 auto;
             list-style: none;
             width: 304px;
             height: 100px;
-            margin-top: 50px;
+            margin-bottom: 44px;
             padding-right: 20px;
         }
         .advantages-number {
@@ -157,7 +159,6 @@ margin: 0 auto;
             list-style: none;
             width: 280px;
             height: 100px;
-            margin-top: 50px;
             padding-right: 20px;
         }
         .advantages-number {
@@ -215,7 +216,6 @@ margin: 0 auto;
             list-style: none;
             width: 318px;
             height: 100px;
-            margin-top: 50px;
             padding-right: 20px;
         }
         .advantages-number {
