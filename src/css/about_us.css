@@ -1,27 +1,25 @@
 .about-us-container {
     background-color: #fbfbfb;
     border-radius: 24px;
-    padding: 0;
-    max-width: 335px;
 }
 
 .about-us-section {
     margin-top: -20px;
+}
+.about-us-card-container{
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .about-us-title {
     font-weight: 500;
     font-size: 28px;
     line-height: 1;
-    padding-top: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
     margin-bottom: 40px;
 }
 
 .about-us-text-container {
-    padding-left: 20px;
-    padding-right: 20px;
     margin-bottom: 22px;
 }
 
@@ -59,16 +57,19 @@
         margin-top: -32px;
     }
 
-    .about-us-title {
-        font-size: 48px;
+    .about-us-card-container{
         padding-top: 50px;
         padding-left: 32px;
+        padding-right: 0;
+    }
+
+    .about-us-title {
+        font-size: 48px;
         padding-right: 136px;
         margin-bottom: 50px;
     }
 
     .about-us-text-container {
-        padding-left: 32px;
         padding-right: 283px;
         margin-bottom: 27px;
     }
@@ -107,12 +108,13 @@
 
     .about-us-title {
         width: 537px;
-        padding: 0;
+        padding-right: 0;
+        margin-bottom: 0;
     }
 
     .about-us-text-container {
         width: 354px;
-        padding: 0;
+        padding-right: 0;
         margin-bottom: 100px;
     }
 }
@@ -128,5 +130,9 @@
 
     .about-us-desktop-container {
         gap: 299px;
+    }
+
+    .about-us-text-container {
+        margin-bottom: 77px;
     }
 }
