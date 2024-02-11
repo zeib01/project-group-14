@@ -5,7 +5,7 @@
     </h2>
     <ul class="yachts-list">
       <li class="yachts-list-item">
-        <!-- <picture>
+        <picture>
           <source
             srcset="
               ./img/yachts/admiral-1440-1x-min.jpg 1x,
@@ -22,7 +22,7 @@
           />
           <source
             srcset="
-              ./img/yachts/admiral-tab-1x-min.jpg 1x,
+              ./img/yachts/admiral-tab1x-min.jpg  1x,
               ./img/yachts/admiral-tab-2x-min.jpg 2x
             "
             media="(min-width: 768px)"
@@ -34,9 +34,14 @@
             "
             media="(max-width: 767px)"
           />
-          
-        </picture> -->
-        <img class="yachts-item-img" src="./img/yachts/admiral-1440-2x-min.jpg" alt="Our Yachts Admiral" />
+
+          <img
+            class="yachts-item-img"
+            src="./img/yachts/admiral-1440-2x-min.jpg"
+            alt="Our Yachts Admiral"
+          />
+        </picture>
+
         <div class="yachts-item-arrow">
           <ul class="yachts-arrow-list">
             <li class="item-arrow">Arrow</li>
@@ -60,11 +65,50 @@
           </ul>
         </div>
       </li>
-      <li class="yachts-list-item item2">
-        <img class="yachts-item-img" src="./img/yachts/benetti-1440-2x-min.jpg" alt="Our Yachts Benetti" />
+
+      <li class="yachts-list-item">
+        <picture>
+          <source
+            srcset="
+              ./img/yachts/benetti-1440-1x-min.jpg 1x,
+              ./img/yachts/benetti-1440-2x-min.jpg 2x
+            "
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="
+              ./img/yachts/benetti-1280-1x-min.jpg 1x,
+              ./img/yachts/benetti-1280-2x-min.jpg 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ./img/yachts/benetti-tab-1x-min.jpg 1x,
+              ./img/yachts/benetti-tab-2x-min.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/yachts/benetti-mob-1x-min.jpg 1x,
+              ./img/yachts/benetti-mob-2x-min.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            class="yachts-item-img"
+            src="./img/yachts/benetti-1440-2x-min.jpg"
+            alt="Our Yachts Benetti"
+          />
+        </picture>
+
+
         <div class="yachts-item-arrow">
           <ul class="yachts-arrow-list">
-            <li class="item-arrow">BENETTI OASIS 40M BO122</li>
+            <li class="item-arrow">
+              <span id="yachts-name">BENETTI OASIS 40M BO122</span>
+            </li>
             <li class="item-arrow-yachts">LUXURY YAHTS</li>
           </ul>
         </div>
@@ -85,8 +129,45 @@
           </ul>
         </div>
       </li>
-      <li class="yachts-list-item item3">
-        <img class="yachts-item-img" src="./img/yachts/isa-1440-2x-min.jpg" alt="Our Yachts Isa" />
+
+      <li class="yachts-list-item">
+        <picture>
+          <source
+            srcset="
+              ./img/yachts/isa-1440-1x-min.jpg 1x,
+              ./img/yachts/isa-1440-2x-min.jpg 2x
+            "
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="
+              ./img/yachts/isa-1280-1x-min.jpg 1x,
+              ./img/yachts/isa-1280-2x-min.jpg 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ./img/yachts/isa-tab1x-min.jpg  1x,
+              ./img/yachts/isa-tab-2x-min.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/yachts/isa-mob-1x-min.jpg 1x,
+              ./img/yachts/isa-mob-2x-min.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            class="yachts-item-img"
+            src="./img/yachts/isa-1440-2x-min.jpg"
+            alt="Our Yachts Isa"
+          />
+        </picture>
+
+
         <div class="yachts-item-arrow">
           <ul class="yachts-arrow-list">
             <li class="item-arrow">BELLE ANNA</li>
@@ -111,6 +192,9 @@
         </div>
       </li>
     </ul>
-    <button href="#rent" type="button" class="yachts-btn">Yacht rental</button>
+
+    <a href="#rent"
+      ><button type="button" class="yachts-btn">Yacht rental</button></a
+    >
   </div>
 </section>
