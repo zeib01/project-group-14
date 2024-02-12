@@ -1,15 +1,15 @@
-.about-us-container {
-    background-color: #fbfbfb;
-    border-radius: 24px;
-}
-
 .about-us-section {
     margin-top: -59px;
+    margin-bottom: 80px;
 }
-.about-us-card-container{
+
+.about-us-container {
+    background-color: #fbfbfb;
+    border-radius: 24px 24px 0 0;
     padding-top: 40px;
+    padding-bottom: 22px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 20px
 }
 
 .about-us-title {
@@ -17,10 +17,6 @@
     font-size: 28px;
     line-height: 1;
     margin-bottom: 40px;
-}
-
-.about-us-text-container {
-    margin-bottom: 22px;
 }
 
 .about-us-subtitle {
@@ -38,8 +34,8 @@
 
 .about-us-img {
     width: 100%;
-    border-radius: 24px;
-    margin-bottom: 80px;
+    border-radius: 0 0 24px 24px;
+    
 }
 
 @media screen and (max-width: 375px) {
@@ -49,16 +45,15 @@
 }
 
 @media screen and (min-width: 768px) {
-    .about-us-container {
-        max-width: 704px;
-    }
-
     .about-us-section {
         margin-top: -67px;
+        margin-bottom: 150px;
     }
-
-    .about-us-card-container{
+    
+    .about-us-container {
+        max-width: 704px;
         padding-top: 50px;
+        padding-bottom: 27px;
         padding-left: 32px;
         padding-right: 0;
     }
@@ -71,7 +66,6 @@
 
     .about-us-text-container {
         padding-right: 283px;
-        margin-bottom: 27px;
     }
 
     .about-us-subtitle {
@@ -82,26 +76,20 @@
         font-size: 13px;
         line-height: 1.15;
     }
-
-    .about-us-img {
-        margin-bottom: 150px;
-    }
 }
 
 @media screen and (min-width: 1280px) {
-    .about-us-container {
-        max-width: 1180px;
-    }
-
     .about-us-section {
         margin-top: -35px;
     }
 
-    .about-us-card-container {
+    .about-us-container {
+        max-width: 1180px;
         display: flex;
         flex-direction: row;
         gap: 189px;
         padding-top: 50px;
+        padding-bottom: 100px;
         padding-left: 50px;
         padding-right: 50px;
     }
@@ -115,24 +103,17 @@
     .about-us-text-container {
         width: 354px;
         padding-right: 0;
-        margin-bottom: 100px;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .about-us-container {
         max-width: 1340px;
+        gap: 299px;
+        padding-bottom: 77px;
     }
 
     .about-us-text-container {
         width: 404px;
-    }
-
-    .about-us-desktop-container {
-        gap: 299px;
-    }
-
-    .about-us-text-container {
-        margin-bottom: 77px;
     }
 }
