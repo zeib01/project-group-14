@@ -145,15 +145,13 @@
 @media screen and (min-width: 768px) {
   .footer-container {
     max-width: 736px;
-    padding: 50px 48px 20px;
+    padding: 50px 46px 20px;
   }
 
   .footer-logo-text {
     margin-right: 110px;
 font-size: 20px;
   }
-
-  
 
   .footer-link-text {
     width: 91px;
@@ -185,7 +183,7 @@ font-size: 20px;
 @media screen and (min-width: 1280px) {
   .footer-container {
     max-width: 1230px;
-    padding: 50px 75px 20px;
+    padding: 50px 72px 20px;
   }
 
   .footer-logo-text {
