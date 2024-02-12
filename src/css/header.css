@@ -171,10 +171,11 @@ header {
   }
 }
 /*Mobile menu*/
-.mobile-menu-is-hidden {
+.mobile-menu {
   display: none;
+  visibility: hidden;
 }
-.mobile-menu-is-open {
+.mobile-menu.is-open {
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -186,6 +187,9 @@ header {
   background-color: #0e1823;
   padding: 16px 20px;
   z-index: 1000;
+  transform: translateX(0);
+  transition: transform 300ms ease-in;
+  visibility: visible;
 }
 .mobile-header-container {
   display: flex;
