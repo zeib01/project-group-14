@@ -24,6 +24,12 @@ header {
   font-size: 14px;
   letter-spacing: -0.03em;
   color: #1b414b;
+  transition: color 250ms ease-in-out;
+}
+.header-logo:focus,
+.header-logo:hover {
+  color: #062730;
+  outline: none;
 }
 .header-btn-icon {
   width: 28px;
@@ -37,17 +43,18 @@ header {
   margin: 0;
 }
 .header-burger-icon {
-  display: flex;
+  fill: #062730;
+  /*display: flex;
   align-items: center;
   flex-direction: column;
   gap: 5px;
-  width: 28px;
+  width: 28px;*/
 }
 .header-burger-icon-item {
-  background-color: #1b414b;
+  /* background-color: #1b414b;
   width: 21px;
   height: 3px;
-  border-radius: 2px;
+  border-radius: 2px;*/
 }
 .header-icon {
   fill: #1b414b;
@@ -126,16 +133,28 @@ header {
     fill: #1b414b;
     transition: fill 250ms ease-in-out;
   }
-  .header-socials-icon:hover,
-  :focus {
+  .header-socials-link-item:hover,
+  .header-socials-link-item:focus {
     fill: #062730;
+    outline: none;
+  }
+  .header-socials-link:hover,
+  .header-socials-link:focus {
+    fill: #062730;
+    outline: none;
+  }
+  .header-socials-icon:hover,
+  .header-socials-icon:focus {
+    fill: #062730;
+    outline: none;
   }
   .header-anchor-link {
     transition: background-color 250ms ease-in-out;
   }
   .header-anchor-link:hover,
-  :focus {
+  .header-anchor-link:focus {
     background-color: #1b414b;
+    outline: none;
   }
 }
 /*Dekstop header 1280px*/
@@ -245,9 +264,10 @@ header {
 /*Responsive for mobile menu from 320px to 375px*/
 @media (max-width: 768px) {
   .mobile-socials-icon:focus,
-  :hover,
-  :active {
+  .mobile-socials-icon:hover,
+  .mobile-socials-icon:active {
     fill: rgba(251, 251, 251, 0.8);
+    outline: none;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 374.98px) {
