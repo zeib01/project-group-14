@@ -1,4 +1,3 @@
-.advantages {}
 
 .container-sec4 {
     /*width: 320px;*/
@@ -44,16 +43,6 @@ flex-wrap: wrap;
     margin-bottom: 20px;
 }
 
-/*.advantages-number::after{
-    content: "";
-    position: absolute;
-    background: rgba(251, 251, 251, 0.1);
-    transform: translateY(16px);    
-    border-radius: 18px;
-    width: 295px;
-    height: 2px;
-}*/
-
 .line {
     border-radius: 18px;
     max-width: 295px;
@@ -85,17 +74,54 @@ flex-wrap: wrap;
         width:  704px;
         height: 424px;
         padding: 90px 32px;
-        flex-wrap: wrap;
-        padding: 90px 32px;
-        flex-wrap: wrap;
-
-    }
-
-    .container-sec4 {
-        display: flex;
-        flex-direction: column;
-        gap: 32px;
-        /*align-items: center;*/
+        flex-wrap: wrap;     
+        }
+        .container-sec4 {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            /*align-items: center;*/
+        }
+        
+        .line{
+            border-radius: 18px;
+            width: 304px;
+            height: 2px;
+            background: rgba(251, 251, 251, 0.1);
+        }
+        .advantages-part {
+            list-style: none;
+            width: 304px;
+            /* height: 100px; */
+            margin-bottom: 44px;
+            /* padding-right: 20px; */
+        }
+        .advantages-number {
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 32px; 
+            line-height: 1;
+            letter-spacing: -0.05em;
+            color: #fbfbfb;
+            margin-bottom: 20px;
+        }
+        .advantages-word {
+            font-weight: 400;
+            font-size: 13px;
+            opacity: 0.8;
+            line-height: 15px; 
+            line-height: 1.15;
+            letter-spacing: -0.02em;
+            color: #fbfbfb;
+        }
+        .sec4-photo{
+            border-radius: 24px;
+            width: 704px;
+            height: 424px;
+        }
+        .advantages-part{
+            width: calc((100% - 24px) / 2);
+        }
     }
 
     .line {
@@ -223,13 +249,6 @@ flex-wrap: wrap;
 @media screen and (min-width: 1440px) {
     .advantages-sector {
         flex-wrap: wrap;
-        }
-        .container-sec4 {
-            /*width: 320px;*/
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            
         }
         .line{
             border-radius: 18px;
