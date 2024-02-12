@@ -1,3 +1,7 @@
+:hover,
+:focus {
+  outline: none;
+}
 /*Mobile header*/
 header {
   position: absolute;
@@ -23,6 +27,10 @@ header {
   font-size: 14px;
   letter-spacing: -0.03em;
   color: #1b414b;
+}
+.header-logo:focus,
+.header-logo:hover {
+  color: #062730;
 }
 .header-btn-icon {
   width: 28px;
@@ -128,10 +136,13 @@ header {
   }
   .header-socials-icon {
     fill: #1b414b;
-    transition: fill 250ms ease-in-out;
   }
   .header-socials-icon:hover,
   .header-socials-icon:focus {
+    fill: #062730;
+  }
+  .header-socials-link:hover,
+  .header-socials-link:focus {
     fill: #062730;
   }
   .header-anchor-link {
@@ -255,14 +266,15 @@ header {
   fill: #fbfbfb;
   transition: fill 250ms ease-in-out;
 }
-/*Responsive for mobile menu from 320px to 375px*/
-@media (max-width: 768px) {
-  .mobile-socials-icon:focus,
-  .mobile-socials-icon:hover,
-  .mobile-socials-icon:active {
-    fill: rgba(251, 251, 251, 0.8);
-  }
+.mobile-socials-link:focus,
+.mobile-socials-link:hover {
+  fill: rgba(251, 251, 251, 0.8);
 }
+.mobile-socials-icon:focus,
+.mobile-socials-icon:hover {
+  fill: rgba(251, 251, 251, 0.8);
+}
+/*Responsive for mobile menu from 320px to 375px*/
 @media screen and (min-width: 320px) and (max-width: 374.98px) {
   .mobile-header-container {
     width: 100%;
