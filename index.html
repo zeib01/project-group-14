@@ -1,34 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJ2SURBVHgB7Zc/aBNRHMe/72pAiJSCUAt2uCo41KLdGnRJBIOgpVE6dNDBFhQnu7o0jQgODmZTCrrEIQXBiKASoY2gYrcoRUSQ3tAhdgrBtELae77vi5cmKcHDJncO/cDl3b135Pf9/UveE2iiP3whLCHHpJAxAWGiDajvywsh8gE7kLByGat+TTg3ZjjWsyk2Z9XLN9FJBJJlu5wo5nLF6uMf4xVRWVS3w/AARmRdrkcowuAEPffKOFGpHQ4awbi+V96byvsV+ICQImJUjEocPrGFrTFDJcSz0DejOiPGGvBPAIRpwGf+bwHdB4LoP9Treo3Prd7/JwGDRwfwLjWH6SsTO9ZePriP9L0728b7evW7vEInhtAWAR8/LeNpdgGTF0e1AYfx6BntafJJujbnGC39LCN6agRtEUBuP3ykx5nrU3qkEEaEwng5TF4arQp+s6AFtk0APUqm0oieHtFeTl+eqHqf2vaeogaPDGjj2Q9Luj7cpsFVFzx+9gJfvq9g5saU9o7GV3+s1daZIsII8KJot1Fw3YZMBYtytbDW4D1hzrPvl2qiGAnOMRJ/Yx9cQs/0+Hm5YT50cqjWflY2s0NYfZ3sSkArxs9WQ31t9i5K5XJtfi5+S691XAAjQCMsvnpYN+wWpoE10Ypd/RSzMxj6ZuPESZUToVaIw5HzEj6y92/ovwC1RbbgE9yeG2pnmoFfSCgBEM/hEzbsRFfJ+mZ1m8d61A4xBA+xpZ0s5F7P6yIMIJBQQx4ewdxvYIM20cWPovX110Hz+LwKyf5OR4KeK+NXGw6n9fSFz6m9uhHn+U2ttuXMwE6TUmakQKaw+Opt/dpv1Zj3POSprpMAAAAASUVORK5CYII=" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>YachtJet</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    
-    <script type="module" crossorigin src="/project-group-14/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-group-14/assets/index-3b30b431.css">
-  </head>
 
-  <body>
-    <!--section header-->
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJ2SURBVHgB7Zc/aBNRHMe/72pAiJSCUAt2uCo41KLdGnRJBIOgpVE6dNDBFhQnu7o0jQgODmZTCrrEIQXBiKASoY2gYrcoRUSQ3tAhdgrBtELae77vi5cmKcHDJncO/cDl3b135Pf9/UveE2iiP3whLCHHpJAxAWGiDajvywsh8gE7kLByGat+TTg3ZjjWsyk2Z9XLN9FJBJJlu5wo5nLF6uMf4xVRWVS3w/AARmRdrkcowuAEPffKOFGpHQ4awbi+V96byvsV+ICQImJUjEocPrGFrTFDJcSz0DejOiPGGvBPAIRpwGf+bwHdB4LoP9Treo3Prd7/JwGDRwfwLjWH6SsTO9ZePriP9L0728b7evW7vEInhtAWAR8/LeNpdgGTF0e1AYfx6BntafJJujbnGC39LCN6agRtEUBuP3ykx5nrU3qkEEaEwng5TF4arQp+s6AFtk0APUqm0oieHtFeTl+eqHqf2vaeogaPDGjj2Q9Luj7cpsFVFzx+9gJfvq9g5saU9o7GV3+s1daZIsII8KJot1Fw3YZMBYtytbDW4D1hzrPvl2qiGAnOMRJ/Yx9cQs/0+Hm5YT50cqjWflY2s0NYfZ3sSkArxs9WQ31t9i5K5XJtfi5+S691XAAjQCMsvnpYN+wWpoE10Ypd/RSzMxj6ZuPESZUToVaIw5HzEj6y92/ovwC1RbbgE9yeG2pnmoFfSCgBEM/hEzbsRFfJ+mZ1m8d61A4xBA+xpZ0s5F7P6yIMIJBQQx4ewdxvYIM20cWPovX110Hz+LwKyf5OR4KeK+NXGw6n9fSFz6m9uhHn+U2ttuXMwE6TUmakQKaw+Opt/dpv1Zj3POSprpMAAAAASUVORK5CYII=" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YachtJet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <script type="module" crossorigin src="/project-group-14/commonHelpers.js"></script>
+  <link rel="stylesheet" href="/project-group-14/assets/index-3b30b431.css">
+</head>
+
+<body>
+  <!--section header-->
 <header>
   <div class="header-container">
     <a href="../index.html" class="header-logo">yachtjet</a>
-    <button type="button" class="header-btn-icon">
+    <button type="button" class="header-btn-icon" data-modal-open>
       <svg width="28" height="28" class="header-burger-icon">
         <use href="/project-group-14/assets/sprite-9487170c.svg#icon-burger"></use>
       </svg>
@@ -40,33 +34,21 @@
     </ul>
     <ul class="header-socials-list-links">
       <li class="header-socials-link-item">
-        <a
-          href="https://www.instagram.com/goitclub/"
-          target="_blank"
-          class="header-socials-link"
-        >
+        <a href="https://www.instagram.com/goitclub/" target="_blank" class="header-socials-link">
           <svg width="24" height="24" class="header-socials-icon">
             <use href="/project-group-14/assets/sprite-9487170c.svg#icon-ins-black"></use>
           </svg>
         </a>
       </li>
       <li class="header-socials-link-item">
-        <a
-          href="https://www.youtube.com/c/GoIT"
-          target="_blank"
-          class="header-socials-link"
-        >
+        <a href="https://www.youtube.com/c/GoIT" target="_blank" class="header-socials-link">
           <svg width="24" height="24" class="header-socials-icon">
             <use href="/project-group-14/assets/sprite-9487170c.svg#icon-youtube-black"></use>
           </svg>
         </a>
       </li>
       <li class="header-socials-link-item">
-        <a
-          href="https://www.facebook.com/goITclub/"
-          target="_blank"
-          class="header-socials-link"
-        >
+        <a href="https://www.facebook.com/goITclub/" target="_blank" class="header-socials-link">
           <svg width="24" height="24" class="header-socials-icon">
             <use href="/project-group-14/assets/sprite-9487170c.svg#icon-fb-black"></use>
           </svg>
@@ -80,10 +62,10 @@
 class="mobile-menu" = closed menu
 class="mobile-menu is-open" = open menu
 -->
-<div class="mobile-menu">
+<div class="mobile-menu" data-modal>
   <div class="mobile-header-container">
     <a href="../index.html" class="header-logo">yachtjet</a>
-    <button type="button" class="header-btn-icon">
+    <button type="button" class="header-btn-icon" data-modal-close>
       <svg width="28" height="28" class="mobile-header-icon">
         <use href="/project-group-14/assets/sprite-9487170c.svg#icon-close"></use>
       </svg>
@@ -96,33 +78,21 @@ class="mobile-menu is-open" = open menu
   </ul>
   <ul class="mobile-socials-list-links">
     <li class="mobile-socials-link-item">
-      <a
-        href="https://www.instagram.com/goitclub/"
-        target="_blank"
-        class="mobile-socials-link"
-      >
+      <a href="https://www.instagram.com/goitclub/" target="_blank" class="mobile-socials-link">
         <svg width="24" height="24" class="mobile-socials-icon">
           <use href="/project-group-14/assets/sprite-9487170c.svg#icon-ins-black"></use>
         </svg>
       </a>
     </li>
     <li class="mobile-socials-link-item">
-      <a
-        href="https://www.youtube.com/c/GoIT"
-        target="_blank"
-        class="mobile-socials-link"
-      >
+      <a href="https://www.youtube.com/c/GoIT" target="_blank" class="mobile-socials-link">
         <svg width="24" height="24" class="mobile-socials-icon">
           <use href="/project-group-14/assets/sprite-9487170c.svg#icon-youtube-black"></use>
         </svg>
       </a>
     </li>
     <li class="mobile-socials-link-item">
-      <a
-        href="https://www.facebook.com/goITclub/"
-        target="_blank"
-        class="mobile-socials-link"
-      >
+      <a href="https://www.facebook.com/goITclub/" target="_blank" class="mobile-socials-link">
         <svg width="24" height="24" class="mobile-socials-icon">
           <use href="/project-group-14/assets/sprite-9487170c.svg#icon-fb-black"></use>
         </svg>
@@ -130,9 +100,8 @@ class="mobile-menu is-open" = open menu
     </li>
   </ul>
 </div>
-
-    <main>
-      <section class="hero-section">
+  <main>
+    <section class="hero-section">
   <div class="hero-container">
     <h1 class="hero-title">
       Explore the High Seas with Our Luxury Yacht Rentals
@@ -146,7 +115,7 @@ class="mobile-menu is-open" = open menu
   </div>
 </section>
 
-      <section class="about-us-section" id="about-us">
+    <section class="about-us-section" id="about-us">
     <div class="container">
         <div class="about-us-container">
             <h2 class="about-us-title">YachtJet fleet is here to take you on the ultimate adventure</h2>
@@ -167,7 +136,7 @@ class="mobile-menu is-open" = open menu
     </div>
 </section>
 
-      <section class="yachts" id="our-yachts">
+    <section class="yachts" id="our-yachts">
   <div class="container">
     <h2 class="yachts-title">
       Choose your dream yacht and sail away into the sunset
@@ -339,7 +308,7 @@ class="mobile-menu is-open" = open menu
   </div>
 </section>
 
-      <section class="advantages">
+    <section class="advantages">
     <div class="container-sec4 container">
         <h2 class="head-word visually-hidden">Our Advantages</h2> 
         <div>
@@ -392,7 +361,7 @@ class="mobile-menu is-open" = open menu
     </div>
 </section>
 <!--problem solved-->
-      <section class="rent" id="rent">
+    <section class="rent" id="rent">
   <div class="container rent__container">
     <div class="rent__li rent__wrapper">
       <h2 class="rent__title">Rent a yacht now</h2>
@@ -457,7 +426,7 @@ class="mobile-menu is-open" = open menu
     </div>
   </div>
 </section>
-      <section class="reviews" id="reviews">
+    <section class="reviews" id="reviews">
   <div class="container">
     <div class="reviews-descr">
       <h2 class="reviews-header">
@@ -526,8 +495,8 @@ class="mobile-menu is-open" = open menu
   </div>
 </section>
 
-    </main>
-    <footer class="footer">
+  </main>
+  <footer class="footer">
   <div class="footer-container">
     <div class="footer-logo">
       <a class="footer-logo-text" href="./index.html">yachtjet</a>
@@ -576,6 +545,7 @@ class="mobile-menu is-open" = open menu
     </P>
   </div>
 </footer>
-    
-  </body>
+  
+</body>
+
 </html>
