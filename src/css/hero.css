@@ -12,7 +12,7 @@
       rgba(17, 19, 31, 0.39) 75.3%,
       rgba(17, 19, 31, 0) 98.27%
     ),
-    url(/img/hero-bg-mobile@1x.jpg);
+    url(/img/hero_img/hero-bg-mobile@1x.jpg);
   margin-left: auto;
   margin-right: auto;
 }
@@ -21,7 +21,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
 }
 
 .hero-title {
@@ -32,11 +31,12 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
+  margin-bottom: 24px;
 }
 
 .hero-text {
   max-width: 326px;
-  margin-bottom: 14px;
+  margin-bottom: 38px;
   font-family: inherit;
   font-weight: 300;
   font-size: 12px;
@@ -76,14 +76,13 @@
 @media screen and (min-width: 320px) and (max-width: 374.98px) {
   .hero-section {
     width: 100%;
-
     background-image: linear-gradient(
         360deg,
         #11131f 15.05%,
         rgba(17, 19, 31, 0.39) 75.3%,
         rgba(17, 19, 31, 0) 98.27%
       ),
-      url(/img/hero-bg-mobile@1x.jpg);
+      url(/img/hero_img/hero-bg-mobile@1x.jpg);
   }
 }
 
@@ -96,7 +95,7 @@
         rgba(17, 19, 31, 0.39) 75.3%,
         rgba(17, 19, 31, 0) 98.27%
       ),
-      url(/img/hero-bg-mobile@2x.jpg);
+      url(/img/hero_img/hero-bg-mobile@2x.jpg);
   }
 }
 
@@ -112,7 +111,7 @@
         rgba(17, 19, 31, 0.39) 75.3%,
         rgba(17, 19, 31, 0) 98.27%
       ),
-      url(/img/hero-bg-tablet@1x.jpg);
+      url(/img/hero_img/hero-bg-tablet@1x.jpg);
   }
 
   .hero-title {
@@ -122,7 +121,7 @@
   .hero-text {
     width: 591px;
     max-width: none;
-    margin-bottom: 24px;
+    margin-bottom: 48px;
     font-size: 16px;
     line-height: 1.4;
   }
@@ -155,7 +154,7 @@
         rgba(17, 19, 31, 0.39) 75.3%,
         rgba(17, 19, 31, 0) 98.27%
       ),
-      url(/img/hero-bg-tablet@2x.jpg);
+      url(/img/hero_img/hero-bg-tablet@2x.jpg);
   }
 }
 
@@ -171,7 +170,7 @@
         rgba(17, 19, 31, 0.39) 75.3%,
         rgba(17, 19, 31, 0) 98.27%
       ),
-      url(/img/hero-bg-desktop@1x.jpg);
+      url(/img/hero_img/hero-bg-desktop@1x.jpg);
   }
 
   .hero-title {
@@ -181,7 +180,6 @@
 
   .hero-text {
     max-width: none;
-    margin-bottom: 24px;
     font-size: 16px;
     line-height: 1.4;
   }
@@ -204,7 +202,7 @@
         rgba(17, 19, 31, 0.39) 75.3%,
         rgba(17, 19, 31, 0) 98.27%
       ),
-      url(/img/hero-bg-desktop@2x.jpg);
+      url(/img/hero_img/hero-bg-desktop@2x.jpg);
   }
 }
 
@@ -220,7 +218,7 @@
         rgba(17, 19, 31, 0.39) 75.3%,
         rgba(17, 19, 31, 0) 98.27%
       ),
-      url(/img/hero-bg-desktop2@1x.jpg);
+      url(/img/hero_img/hero-bg-desktop2@1x.jpg);
     margin-left: auto;
     margin-right: auto;
   }
@@ -229,7 +227,6 @@
   }
 
   .hero-text {
-    margin-bottom: 24px;
     font-size: 16px;
     line-height: 1.4;
   }
@@ -252,6 +249,6 @@
         rgba(17, 19, 31, 0.39) 75.3%,
         rgba(17, 19, 31, 0) 98.27%
       ),
-      url(/img/hero-bg-desktop2@2x.jpg);
+      url(/img/hero_img/hero-bg-desktop2@2x.jpg);
   }
 }
