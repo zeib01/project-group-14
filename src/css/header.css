@@ -171,10 +171,7 @@ header {
   }
 }
 /*Mobile menu*/
-.mobile-menu-is-hidden {
-  display: none;
-}
-.mobile-menu-is-open {
+.mobile-menu {
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -186,6 +183,13 @@ header {
   background-color: #0e1823;
   padding: 16px 20px;
   z-index: 1000;
+  transform: translateX(-100%);
+  transition: transform 300ms ease-in;
+  visibility: hidden;
+}
+.mobile-menu.is-open {
+  transform: translateX(0);
+  visibility: visible;
 }
 .mobile-header-container {
   display: flex;
