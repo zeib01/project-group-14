@@ -25,7 +25,7 @@
 }
 
 .hero-title {
-  font-family: 'Inter', sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 32px;
   line-height: 1;
@@ -37,7 +37,7 @@
 .hero-text {
   max-width: 326px;
   margin-bottom: 14px;
-  font-family: 'Inter', sans-serif;
+  font-family: inherit;
   font-weight: 300;
   font-size: 12px;
   line-height: 1.16667;
@@ -48,7 +48,7 @@
 .hero-button {
   display: flex;
   align-items: center;
-  font-family: 'Inter', sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28571;
