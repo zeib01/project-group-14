@@ -69,7 +69,7 @@ margin: 0 auto;
 
 .sec4-photo {
     border-radius: 24px;
-    height: 424px;
+    /* height: 424px; */
 }
 
 /*-----------media----------*/
@@ -122,8 +122,8 @@ margin: 0 auto;
         }
         .sec4-photo{
             border-radius: 24px;
-            width: 704px;
-            height: 424px;
+            /* width: 704px; */
+            /* height: 424px; */
         }
         .advantages-part{
             width: calc((100% - 24px) / 2);
@@ -174,8 +174,8 @@ margin: 0 auto;
     }
     .sec4-photo {
         border-radius: 30px;
-        width: 432px;
-        height: 424px;
+        /* width: 432px; */
+        /* height: 424px; */
     }
     .advantages-part {
         width: calc((100% - 24px) / 2);
@@ -223,9 +223,9 @@ margin: 0 auto;
             color: #fbfbfb;
         }
         .sec4-photo{
-            border-radius: 25px;
-            width: 540px;
-            height: 424px;
+            border-radius: 24px;
+            /* width: 540px; */
+            /* height: 424px; */
         }
         .advantages-part{
             width: calc((100% - 24px) / 2);
