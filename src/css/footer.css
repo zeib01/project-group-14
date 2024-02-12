@@ -1,10 +1,15 @@
 .footer {
   display: flex;
   justify-content: center;
-  margin: 0 10px;
+  
 }
 
+:focus,:hover {
+  outline: none;}
+
 .footer-container {
+  padding: 0 10px;
+  margin: 0 auto;
   max-width: 355px;
   display: flex;
   justify-content: center;
@@ -16,6 +21,7 @@
 
 .footer-logo {
   display: flex;
+  margin-bottom: 80px;
 }
 
 .footer-menu {
@@ -30,10 +36,15 @@
   color: #fbfbfb;
 }
 
+.footer-logo-text:hover,
+.footer-logo-text:focus {
+  color: rgba(251, 251, 251, 0.8);
+}
+
 .footer-list {
   display: flex;
   gap: 4px;
-  margin-bottom: 80px;
+  
 }
 
 .footer-link-text {
@@ -58,6 +69,7 @@
   color: #1b414b;
 }
 
+
 .footer-social-list {
   display: flex;
   flex-direction: row;
@@ -65,7 +77,6 @@
   align-items: center;
   gap: 8px;
   margin-bottom: 40px;
-
 }
 
 .footer-link-item {
@@ -83,9 +94,9 @@
   fill: #fbfbfb;
 }
 
-.social-footer:hover,
+.social-footer:hover, 
 .social-footer:focus {
- fill: rgba(251, 251, 251, 0.8);;
+ fill: rgba(251, 251, 251, 0.8);
 }
 
 .footer-social-link {
@@ -119,9 +130,16 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 375px) {
+  .footer {
+    margin: 0 10px;
+  }
+  
   .footer-container {
     width: 100%;
+     padding: 25px 15px 20px;
   }
+  .footer-logo-text {
+  margin-right: 30px;}
 }
 
 @media screen and (min-width: 768px) {
@@ -132,15 +150,22 @@
 
   .footer-logo-text {
     margin-right: 110px;
+font-size: 20px;
   }
+
+  
 
   .footer-link-text {
     width: 91px;
   }
 
+  .footer-logo {
+    margin-bottom: 96px;
+  }
+
   .footer-list {
     margin-right: 91px;
-    margin-bottom: 96px;
+    
   }
 
 
