@@ -4,6 +4,9 @@
   
 }
 
+:focus,:hover {
+  outline: none;}
+
 .footer-container {
   padding: 0 10px;
   margin: 0 auto;
@@ -31,6 +34,11 @@
   font-size: 14px;
   letter-spacing: -0.03em;
   color: #fbfbfb;
+}
+
+.footer-logo-text:hover,
+.footer-logo-text:focus {
+  color: rgba(251, 251, 251, 0.8);
 }
 
 .footer-list {
@@ -86,9 +94,9 @@
   fill: #fbfbfb;
 }
 
-.social-footer:hover,
+.social-footer:hover, 
 .social-footer:focus {
- fill: rgba(251, 251, 251, 0.8);;
+ fill: rgba(251, 251, 251, 0.8);
 }
 
 .footer-social-link {
