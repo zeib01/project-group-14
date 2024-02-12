@@ -44,7 +44,6 @@
 
 .rent__input:focus-within {
   border-color: rgba(251, 251, 251, 0.5);
-  border-color: red;
 }
 
 .rent__input::placeholder {
