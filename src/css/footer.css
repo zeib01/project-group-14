@@ -90,12 +90,12 @@
   height: 24px;
   border: transparent;
 }
-.social-footer {
+.footer-link-item {
   fill: #fbfbfb;
 }
 
-.social-footer:hover, 
-.social-footer:focus {
+.footer-link-item:hover, 
+.footer-link-item:focus {
  fill: rgba(251, 251, 251, 0.8);
 }
 
