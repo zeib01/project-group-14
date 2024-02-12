@@ -4,6 +4,7 @@
 }
 
 .container-sec4 {
+    max-width: 335px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,7 +28,7 @@
     background: #1b414b;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
+    /* margin: 0 auto;*/
 }
 
 .advantages-part {

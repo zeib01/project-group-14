@@ -32,7 +32,7 @@
   text-align: center;
   color: #fbfbfb;
   opacity: 0.4;
-  width: 332px;
+  max-width: 332px;
 }
 
 
@@ -79,7 +79,7 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #040306;
-  
+
 }
 
 .reviews-list-text {
@@ -99,7 +99,7 @@
     padding-bottom: 150px;
   }
 
-  
+
   .reviews-header {
     font-size: 48px;
     width: 704px;
@@ -116,7 +116,7 @@
     display: flex;
     gap: 32px;
     justify-content: center;
-    
+
   }
 
   .reviews-list-item {
@@ -151,23 +151,23 @@
 
   .reviews-list-item {
     max-width: 376px;
-}
+  }
 }
 
 /*--------@media desctop-1440-------*/
 
 @media screen and (min-width: 1440px) {
-    .reviews-list-item {
+  .reviews-list-item {
     max-width: 392px;
-   
-       }
 
-       .reviews-list {
-    gap: 32px;
-    
   }
 
-    .reviews-img-descr{
-  padding: 0 36px;
-}
+  .reviews-list {
+    gap: 32px;
+
+  }
+
+  .reviews-img-descr {
+    padding: 0 36px;
+  }
 }
