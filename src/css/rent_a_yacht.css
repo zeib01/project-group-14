@@ -103,7 +103,7 @@
   .rent__textarea {
     height: 116px;
 
-    margin-bottom: 50px;
+    margin-bottom: 32px;
   }
 
   .rent__button {
@@ -118,6 +118,10 @@
   .rent__container {
     flex-direction: row-reverse;
     gap: 50px;
+  }
+
+  .rent__title {
+    margin-bottom: 50px;
   }
 
   .rent__button {
