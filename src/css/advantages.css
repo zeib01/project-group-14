@@ -1,6 +1,5 @@
 .advantages {
     padding-bottom: 80px;
-
 }
 
 .container-sec4 {
@@ -88,6 +87,7 @@
     }
 
     .container-sec4 {
+        max-width: 768px;
         display: flex;
         flex-direction: column;
         gap: 32px;
@@ -139,6 +139,7 @@
 /*-----------desktop1280----------*/
 @media screen and (min-width: 1280px) {
     .container-sec4 {
+        max-width: 1280px;
         flex-direction: row;
     }
 
@@ -195,6 +196,10 @@
 
 /*-----------desktop1440----------*/
 @media screen and (min-width: 1440px) {
+    .container-sec4 {
+        max-width: 1440px;
+    }
+
     .advantages-sector {
         border-radius: 24px;
         width: 768px;
